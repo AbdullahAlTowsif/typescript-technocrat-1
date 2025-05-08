@@ -20,6 +20,7 @@
 Enums allow a developer to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.
 
 ### Numeric Enum
+```
 enum Direction {
   Up,      // 0
   Down,    // 1
@@ -29,8 +30,10 @@ enum Direction {
 
 let move: Direction = Direction.Left;
 console.log(move); // Output: 2
+```
 
 ### String Enums
+```
 enum Color {
   Red = "RED",
   Green = "GREEN",
@@ -39,3 +42,4 @@ enum Color {
 
 let favorite: Color = Color.Green;
 console.log(favorite); // Output: "GREEN"
+```
